@@ -1,7 +1,5 @@
 "use strict"
 
-
-
 document.querySelector('#insert-name-button').addEventListener('click', guestNameAssignment);
 
 function guestNameAssignment(){
