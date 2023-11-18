@@ -1,0 +1,8 @@
+violeta
+    background: rgb(71,27,98);
+    background: linear-gradient(90deg, rgba(71,27,98,1) 32%, rgba(132,77,175,1) 80%, rgba(185,107,225,1) 100%);
+
+
+azul
+background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 32%, rgba(0, 212, 255, 1) 100%);
