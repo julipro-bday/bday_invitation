@@ -1,16 +1,19 @@
 "use strict"
 
-const API_URL = 'https://65583e6f9c0b643cb2d6e8aa.mockapi.io/api/invitados'
+const API_URL = 'https://65583e6f9c0b643cb2d6e8aa.mockapi.io/api/invitados/'
 
-document.querySelector("#yes-button").addEventListener('click', function () {
+document.addEventListener("DOMContentLoaded", (event) => {
+
+
+document.querySelector("#yes-button").addEventListener('click', async function () {
     sessionStorage.setItem("willAssist", true);
-    insertGuest('../html/accepted_screen.html');
+    await insertGuest('../html/accepted_screen.html');
     
 });
 
-document.querySelector("#no-button").addEventListener('click', function () {
+document.querySelector("#no-button").addEventListener('click', async function () {
     sessionStorage.setItem("willAssist", false);
-    insertGuest('../html/rejected_screen.html');
+    await insertGuest('../html/rejected_screen.html');
 });
 
 
@@ -31,10 +34,10 @@ async function insertGuest(redirectURL){
         });
 
 
-        console.log(response);
+        window.location.href = redirectURL;
     } 
     catch (error) {
         console.log(error)
     }
 }
-
+});
