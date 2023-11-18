@@ -43,9 +43,10 @@ h1 {
     margin-top: 2em;
 }
 
-#nameInput {
+.input-name {
     width: 16em;
-    height: 2.5em;
+    height: 3em;
+    border-radius: 5px;
 }
 
 h3 {
