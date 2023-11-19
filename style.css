@@ -31,9 +31,16 @@ h1 {
 
 .barilli-img{
     border-radius: 2em;
-    width: 22em;
+    width: 18em;
     height: 18em;
     margin-top: 2em;
+}
+
+.google-form{
+    border-radius: 2em;
+    background-color: #587fa1;
+    padding: 0.9em;
+    margin: 1em;
 }
 
 .chiki-img{
@@ -64,15 +71,17 @@ button {
     text-align: center;
     text-decoration: none;
     border: 2px solid #007bff;
-    /* Replace with your desired primary color */
     color: #ffffff;
     /* Text color */
     background-color: #007bff;
-    /* Replace with your desired primary color */
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     margin-top: 0.5em;
+}
+
+#continue-button{
+    margin-top: 1.2em;
 }
 
 #yes-button{
@@ -93,9 +102,7 @@ button {
 
 button:hover {
     background-color: #0056b3;
-    /* Replace with a slightly different shade for hover effect */
     border-color: #0056b3;
-    /* Replace with a slightly different shade for hover effect */
 }
 
 .yes-or-no-button-container{
